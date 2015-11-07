@@ -17,14 +17,9 @@ group :development, :test do
 
   gem 'byebug', '5.0.0'
   gem 'launchy', '2.4.3'
- # gem 'rerun', '0.10.0'
+  gem 'rerun', '0.10.0'
 
   gem 'simplecov', '0.10.0'
   gem 'webmock', '1.21.0'
   gem 'ZenTest', '4.11.0'
-end
-
-#server restart apres modif en developpement seulement
-group :development do
-  gem 'rerun'
 end
